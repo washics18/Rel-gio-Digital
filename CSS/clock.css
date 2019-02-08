@@ -1,0 +1,33 @@
+body {
+  width: 95%;
+  line-height: 1.5;
+  margin: auto;
+  background: url(../img/time.jpg);
+  padding: 80px;
+}
+
+.hours {
+  background-color: #000;
+  text-align: center;
+  color: #0f0;
+  font-weight: bold;
+  font-size: 50px;
+  width: 450px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.logo {
+  text-align: center;
+}
+.clock {
+  color: #fff;
+
+  font-size: 60px;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
